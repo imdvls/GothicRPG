@@ -1,7 +1,7 @@
 {
   "short_name": "Whispers",
   "name": "Whispers in the Dark",
-  "description": "A gothic horror text-based adventure where your choices determine your fate.",
+  "description": "A gothic horror text-based adventure game",
   "icons": [
     {
       "src": "favicon.ico",
