@@ -4,6 +4,8 @@
 
 > *Where shadows speak and nightmares breathe...*
 
+## 🎮 [Play Now](https://imdvls.github.io/GothicRPG/)
+
 ## 🌑 Overview
 
 **Whispers in the Dark** is an immersive text-based horror RPG that plunges players into a nightmarish mansion filled with supernatural entities, challenging puzzles, and a story that adapts to your choices. Navigate through atmospheric descriptions, manage your character's health and sanity, and uncover the dark secrets hidden within the walls.
@@ -36,7 +38,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/GothicRPG.git
+git clone https://github.com/imdvls/GothicRPG.git
 
 # Navigate to the project directory
 cd GothicRPG
