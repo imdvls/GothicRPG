@@ -189,7 +189,7 @@ function App() {
                   <span className="nav-icon">{isMuted ? "🔇" : "🔊"}</span>
                   <span className="nav-text">{isMuted ? "Unmute" : "Mute"}</span>
                 </button>
-                <a href="https://github.com/imdvls/textbased-rpg" target="_blank" rel="noopener noreferrer" className="nav-link">
+                <a href="https://github.com/imdvls/GothicRPG" target="_blank" rel="noopener noreferrer" className="nav-link">
                   <span className="nav-icon">📖</span>
                   <span className="nav-text">GitHub</span>
                 </a>
@@ -211,7 +211,7 @@ function App() {
                 <span className="footer-link" title="About the game">About</span>
                 <span className="footer-link" title="Game credits">Credits</span>
                 <a 
-                  href="https://github.com/imdvls/textbased-rpg/issues" 
+                  href="https://github.com/imdvls/GothicRPG/issues" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="footer-link"
