@@ -1129,6 +1129,21 @@ body {
   animation: pulse 2s infinite;
 }
 
+.loading-hint {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--accent-primary);
+  margin-top: 1rem;
+  opacity: 0.8;
+  animation: fadeInOut 2s infinite;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -1394,4 +1409,93 @@ body {
 
 @keyframes fadeIn {
   to { opacity: 1; }
+}
+
+/* Unfocused State */
+.App.unfocused::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 900;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.focus-reminder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 950;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.focus-reminder-content {
+  text-align: center;
+  max-width: 80%;
+  animation: pulseGlow 3s infinite alternate;
+}
+
+.focus-reminder h2 {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent-primary);
+  text-shadow: 0 0 15px rgba(154, 0, 0, 0.7);
+  animation: textFlicker 4s infinite alternate;
+}
+
+.focus-reminder p {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  font-style: italic;
+  animation: breathe 3s infinite;
+}
+
+@keyframes textFlicker {
+  0%, 100% {
+    text-shadow: 0 0 15px rgba(154, 0, 0, 0.7);
+    opacity: 0.9;
+  }
+  25% {
+    text-shadow: 0 0 5px rgba(154, 0, 0, 0.5);
+    opacity: 0.7;
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(154, 0, 0, 0.9);
+    opacity: 1;
+  }
+  75% {
+    text-shadow: 0 0 10px rgba(154, 0, 0, 0.6);
+    opacity: 0.8;
+  }
+}
+
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(154, 0, 0, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 15px rgba(154, 0, 0, 0.8));
+  }
 }
