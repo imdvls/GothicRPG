@@ -2,7 +2,7 @@
   "name": "textbased_rpg",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://imdvls.github.io/textbased-rpg",
+  "homepage": "https://imdvls.github.io/GothicRPG",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -39,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
