@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GothicRPG/static/css/main.7789f94e.css",
-    "main.js": "/GothicRPG/static/js/main.74474704.js",
+    "main.css": "/GothicRPG/static/css/main.c09f6953.css",
+    "main.js": "/GothicRPG/static/js/main.5e293d46.js",
     "static/js/453.50f07c53.chunk.js": "/GothicRPG/static/js/453.50f07c53.chunk.js",
     "index.html": "/GothicRPG/index.html",
-    "main.7789f94e.css.map": "/GothicRPG/static/css/main.7789f94e.css.map",
-    "main.74474704.js.map": "/GothicRPG/static/js/main.74474704.js.map",
+    "main.c09f6953.css.map": "/GothicRPG/static/css/main.c09f6953.css.map",
+    "main.5e293d46.js.map": "/GothicRPG/static/js/main.5e293d46.js.map",
     "453.50f07c53.chunk.js.map": "/GothicRPG/static/js/453.50f07c53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7789f94e.css",
-    "static/js/main.74474704.js"
+    "static/css/main.c09f6953.css",
+    "static/js/main.5e293d46.js"
   ]
 }
