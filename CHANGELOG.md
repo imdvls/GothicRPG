@@ -5,6 +5,21 @@ All notable changes to the "Whispers in the Dark" project will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2023-11-20
+
+### Added
+- Improved audio loading system with preloading for faster startup
+- Focus/unfocus detection with atmospheric overlay when game loses focus
+- Animated text effects for the unfocused state with horror-themed messaging
+- Automatic audio pause/resume when switching tabs or windows
+- Visual indicator during audio loading process
+
+### Technical
+- Enhanced event handling for browser focus events
+- Optimized audio resource management
+- Added new CSS animations for text effects (textFlicker, breathe, pulseGlow)
+- Improved loading screen with status feedback
+
 ## [1.0.0] - 2023-11-15
 
 ### Added
