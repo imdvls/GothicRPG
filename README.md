@@ -1,83 +1,111 @@
-# Whispers in the Dark
+# 🏰 Whispers in the Dark
 
-![Gothic Horror Adventure](https://img.shields.io/badge/Genre-Gothic%20Horror-8A0707)
-![React](https://img.shields.io/badge/Built%20with-React-61DAFB)
-![Text Adventure](https://img.shields.io/badge/Type-Text%20Adventure-333333)
+![Game Banner](https://i.imgur.com/placeholder.jpg)
 
-A haunting text-based adventure game where your choices determine your fate. Explore a decrepit mansion filled with supernatural horrors, manage your dwindling resources, and fight to maintain your sanity as you uncover the dark secrets hidden within its walls.
+> *Where shadows speak and nightmares breathe...*
 
-## 🕯️ Play Now
+## 🌑 Overview
 
-[**Enter the Mansion**](https://imdvls.github.io/textbased-rpg/)
+**Whispers in the Dark** is an immersive text-based horror RPG that plunges players into a nightmarish mansion filled with supernatural entities, challenging puzzles, and a story that adapts to your choices. Navigate through atmospheric descriptions, manage your character's health and sanity, and uncover the dark secrets hidden within the walls.
 
-## 🏚️ About the Game
+## ✨ Features
 
-*Whispers in the Dark* is an atmospheric gothic horror text adventure that combines resource management, enemy encounters, and branching narratives. As you explore the haunted mansion, you'll:
-
-- **Make critical choices** that affect your path through the story
-- **Manage your health and sanity** as supernatural forces work against you
-- **Collect items** to solve puzzles and defend yourself
-- **Encounter terrifying entities** that you must confront or flee from
-- **Uncover the dark history** of the mansion and its former inhabitants
-
-## 🕯️ Features
-
-- **Atmospheric Storytelling**: Immersive gothic horror narrative with rich, descriptive text
-- **Dynamic Encounters**: Face supernatural entities with multiple ways to overcome them
-- **Resource Management**: Balance your health and sanity as you explore
-- **Inventory System**: Collect and use items to progress through the story
-- **Multiple Endings**: Your choices lead to different conclusions to your nightmare
-
-## 🖥️ Technical Details
-
-This game is built with:
-- React 18
-- Modern CSS with atmospheric effects
-- Responsive design for various screen sizes
+- **Rich Narrative Experience**: Detailed, atmospheric text descriptions bring the haunted mansion to life
+- **Choice-Based Gameplay**: Every decision shapes your journey and can lead to different outcomes
+- **Health & Sanity System**: Manage both physical and mental well-being as you face horrors
+- **Dynamic Encounters**: Face supernatural entities with various strategies based on items and choices
+- **Inventory System**: Collect and use items to overcome obstacles and defeat enemies
+- **Atmospheric Audio**: Subtle background music enhances the horror experience
+- **Responsive Design**: Enjoy the game on any device with a fully responsive interface
 
 ## 🎮 How to Play
 
-1. Read the atmospheric text describing your surroundings
-2. Choose from the available options to progress
-3. Manage your health and sanity carefully
-4. Collect items to help in your journey
-5. When encountering enemies, choose whether to confront them or attempt to flee
-6. Try to escape the mansion with your life and sanity intact
+1. **Navigate**: Read the scene descriptions and choose your path by selecting from the available options
+2. **Manage Resources**: Keep an eye on your health and sanity meters
+3. **Collect Items**: Find and use items that can help you overcome challenges
+4. **Face Encounters**: When confronted by supernatural entities, choose whether to fight, flee, or use specific items
+5. **Explore**: Uncover the mansion's secrets by thoroughly exploring each area
 
-## 🛠️ Development
+## 🖥️ Installation & Setup
 
-### Local Setup
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/imdvls/textbased-rpg.git
+git clone https://github.com/yourusername/GothicRPG.git
 
 # Navigate to the project directory
-cd textbased-rpg
+cd GothicRPG
 
 # Install dependencies
 npm install
+# or
+yarn install
 
 # Start the development server
 npm start
+# or
+yarn start
 ```
 
-### Deployment
+The game will be available at `http://localhost:3000/` in your browser.
 
-```bash
-# Build and deploy to GitHub Pages
-npm run deploy
-```
+## 🛠️ Technologies Used
+
+- **React**: Frontend UI library
+- **CSS**: Custom styling with atmospheric effects
+- **JavaScript**: Game logic and state management
+
+## 🎭 Game Mechanics
+
+### Health & Sanity
+- **Health**: Represents your physical well-being. Decreases when taking physical damage.
+- **Sanity**: Represents your mental stability. Decreases when witnessing disturbing events or encountering supernatural entities.
+
+### Encounters
+When facing supernatural entities, you have several options:
+- **Flee**: Attempt to escape (chance of success based on the entity)
+- **Use Items**: Some entities have weaknesses to specific items
+- **Face Them**: Confront the entity directly (high risk, but sometimes necessary)
+
+### Items
+Various items can be found throughout the mansion:
+- **Flashlight**: Illuminates dark areas and effective against shadow-based entities
+- **Rusty Key**: Opens certain locked doors and can be used as a makeshift weapon
+- **Ancient Book**: Contains knowledge about the mansion's history and entity weaknesses
+- **And many more to discover...**
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## 🙏 Acknowledgements
 
-- Inspired by classic text adventures and gothic horror literature
-- Special thanks to all the beta testers who helped refine the experience
+- Inspired by classic text adventures and horror literature
+- Sound effects and music from [source]
+- Special thanks to all contributors and playtesters
 
 ---
 
-*"In the mansion's shadowed halls, whispers echo from the walls. Will you find the truth that's hidden, or join the souls who are forbidden?"*
+<p align="center">
+  <i>Best experienced in a dark room with headphones.</i>
+</p>
+
+<p align="center">
+  © 2023 Gothic Horror Adventures
+</p>
